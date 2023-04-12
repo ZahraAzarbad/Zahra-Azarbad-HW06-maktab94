@@ -21,10 +21,10 @@
 
         <div class="video">
 
-            <video controls>
-                <source
-                    src="https://www.aparat.com/v/iV762/%D9%88%DB%8C%D8%AF%DB%8C%D9%88_%D9%85%D8%B9%D8%B1%D9%81%DB%8C_%D9%85%DA%A9_%D8%A8%D9%88%DA%A9_%D9%BE%D8%B1%D9%88_%D8%AC%D8%AF%DB%8C%D8%AF"
-                    type="video/mp4">
+            <h1 id="header">مشاهده ویدیو معرفی محصولات</h1>
+
+            <video id="video" controls>
+                <source src="video/microsoft.mp4" type="video/mp4">
 
             </video>
 
@@ -44,6 +44,98 @@
         <div class="bar">
 
 
+            <div class="selection">
+
+
+                <label>Laptop model:</label><br>
+                <select id="laptopModel">
+                    <option selected value="Nothing selected">Nothing Selected</option>
+
+                    <option>Surface Pro X</option>
+
+                    <option>Surface Pro 8</option>
+
+                    <option>Surface Go 3</option>
+
+                </select>
+
+            </div>
+
+
+
+
+            <div class="selection">
+
+
+                <label>Processor:</label><br>
+                <select id="processor">
+                    <option selected value="Nothing selected">Nothing Selected</option>
+
+                    <option>Core i7-1185G7</option>
+
+                    <option>Microsoft SQ1</option>
+
+                    <option>Core i5-1035G1</option>
+
+                </select>
+
+            </div>
+
+
+
+            <div class="selection">
+
+
+                <label>RAM:</label><br>
+
+                <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-funnel-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2z" />
+                    </svg>RAM</button>
+
+            </div>
+
+
+
+            <div class="selection">
+
+
+                <label>Hard disk:</label><br>
+
+                <button class="btn"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-funnel-fill" viewBox="0 0 16 16">
+                        <path
+                            d="M1.5 1.5A.5.5 0 0 1 2 1h12a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.128.334L10 8.692V13.5a.5.5 0 0 1-.342.474l-3 1A.5.5 0 0 1 6 14.5V8.692L1.628 3.834A.5.5 0 0 1 1.5 3.5v-2z" />
+                    </svg>Hard disk</button>
+
+            </div>
+
+
+
+
+
+            <div class="selection">
+
+
+                <label>Display:</label><br>
+                <select id="processor">
+                    <option selected value="Nothing selected">Nothing Selected</option>
+
+                    <option>13 inch</option>
+
+                    <option>11 inch</option>
+
+                    <option>15 inch</option>
+
+                </select>
+
+            </div>
+
+
+
+
+
         </div>
 
 
@@ -56,6 +148,149 @@
 
 
         <div class="list">
+
+
+            <table>
+
+
+                <tr>
+                    <th>laptop<span>model</span> </th>
+                    <th>Picture</th>
+                    <th>Processor</th>
+                    <th>RAM</th>
+                    <th>Hard<span>disk</span></th>
+                    <th>Display</th>
+                    <th>Graphics</th>
+                    <th>OS</th>
+                    <th>Weight</th>
+                    <th>Battery</th>
+                    <th>Price</th>
+                    <th>Purchase</th>
+                </tr>
+
+
+
+                <tr>
+                    <td>Acer Chromebook CB3-<br>131-C3SZ</td>
+                    <td><img id="Acer" src="img/Acer.jpg" alt=" image of laptop model:Acer Chromebook CB3-131-C3SZ">
+                    </td>
+                    <td>Intel<br>
+                        Celeron<br>
+                        N29840 2. 16<br>
+                        GHz
+                    </td>
+
+                    <td>2GB DDR3</td>
+                    <td>16GB SSD</td>
+                    <td>11.6"HD<br>
+                        IPS Screen<br>
+                        (1366*<br>
+                        768)</td>
+                    <td>Intel Hd <br>
+                        Graphics</td>
+                    <td>Google<br>
+                        Chrome<br>
+                        Opening<br>
+                        System</td>
+                    <td>2.4 pounds</td>
+                    <td>9h</td>
+                    <td>$228</td>
+
+                    <td><button class="buyBtn">Buy now</button></td>
+                </tr>
+
+
+
+
+                <tr>
+                    <td>Asus F556UA-AB32</td>
+
+
+                    <td><img src="img/Asus.jpg" alt=" image of laptop model:Asus F556UA-AB32"></td>
+                    <td>Intel Core<br>
+                        i3-61DDU<br>
+                        2.3 GHz
+                    </td>
+
+                    <td>4GB DDR4</td>
+                    <td>1TB HDD</td>
+                    <td>15.6"FHD<br>
+                        (1920*<br>
+                        1080)</td>
+                    <td>Intel HD<br>
+                        Graphics
+                    </td>
+                    <td>Windows 10</td>
+                    <td>5.1 pounds</td>
+                    <td>5h</td>
+                    <td>$1,454</td>
+                    <td><button class="buyBtn">Buy now</button></td>
+
+                </tr>
+
+
+
+                <tr>
+                    <td>Lenovo Flex 4 2-in-1</td>
+
+
+                    <td><img src="img/Lenovo.jpg" alt=" image of laptop model:Lenovo Flex 4 2-in-1"></td>
+                    <td>Intel Core<br>
+                        i7-7500U<br>
+                        2.7 GHz
+                    </td>
+
+                    <td>12GB DDR4</td>
+                    <td>1TB HDD</td>
+                    <td>15.6"FHD<br>
+                        (1920*<br>
+                        1080)</td>
+                    <td>Intel HD <br>
+                        Graphics<br>
+                        620</td>
+                    <td>Windows 10</td>
+                    <td>4.21<br>
+                        pounds</td>
+                    <td>6h</td>
+                    <td>$754</td>
+                    <td><button class="buyBtn">Buy now</button></td>
+
+                </tr>
+
+
+                <tr>
+
+
+                    <td>ASUS VivoBook</td>
+
+
+                    <td><img id="AsusBook" src="img/Asus VivoBook.jpg" alt=" image of laptop model:ASUS VivoBook"></td>
+                    <td>Intel Core<br>
+                        i5-B250U<br>
+                        (up 10.3 4<br>
+                        GHz)
+                    </td>
+
+                    <td>8GB DDR4</td>
+                    <td>1TB HDD</td>
+                    <td>14.2"FHD<br>
+                        (1920*<br>
+                        1080)</td>
+                    <td>Intel
+                        UHD <br>
+                        Graphics<br>
+                        620</td>
+                    <td>Windows 10</td>
+                    <td>3.7 pounds</td>
+                    <td>5h</td>
+                    <td>$499</td>
+                    <td><button class="buyBtn">Buy now</button></td>
+                </tr>
+
+
+
+
+            </table>
 
 
         </div>
