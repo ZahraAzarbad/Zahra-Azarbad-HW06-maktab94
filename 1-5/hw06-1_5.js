@@ -1,34 +1,34 @@
 ////////////////1//////////////////
 
 
-let salaries = {
-    "John": 100,
-    "Pete": 300,
-    "Mary": 250,
-    "David": 300
-};
+// let salaries = {
+//     "John": 100,
+//     "Pete": 300,
+//     "Mary": 250,
+//     "David": 300
+// };
 
 
-function topSalary(personSalary) {
+// function topSalary(personSalary) {
 
-    const topSalaryName = [];
+//     const topSalaryName = [];
 
-    let topSalaryCost = 0;
+//     let topSalaryCost = 0;
 
-    for (const [name, salary] of Object.entries(personSalary)) {
-        if (salary >= topSalaryCost) {
-            topSalaryCost = salary;
-        }
-    }
+//     for (const [salary] of Object.entries(personSalary)) {
+//         if (salary >= topSalaryCost) {
+//             topSalaryCost = salary;
+//         }
+//     }
 
-    topSalaryName.push(Object.keys(personSalary).filter(key => personSalary[key] == topSalaryCost));
+//     topSalaryName.push(Object.keys(personSalary).filter(key => personSalary[key] === topSalaryCost));
 
-    return topSalaryName;
-}
+//     return topSalaryName;
+// }
 
 
-const result = topSalary(salaries);
-console.log(result);
+// const result = topSalary(salaries);
+// console.log(result);
 
 
 
@@ -65,29 +65,29 @@ console.log(result);
 
 
 
-const array = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+// const array = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
 
-const anagrams = [];
+// const anagrams = [];
 
-// anagrams.push(
+// // anagrams.push(
 
-array.forEach(word => {
-    const sort = [...word].map(c => c.toLowerCase()).sort().join("")
-    anagrams[sort] = word
-});
+// array.forEach(word => {
+//     const sortedKey = [...word].map(lowerCaseWord => lowerCaseWord.toLowerCase()).sort().join("")
+//     anagrams[sortedKey] = word
+// });
 
 
-console.log(Object.values(anagrams))
+// console.log(Object.values(anagrams))
 
 
 
 
 //////////////////////////////////////////5///////////////////////////////
 
-let map = new Map();
-map.set("name", "John");
+// let map = new Map();
+// map.set("name", "John");
 
-let keys = Array.from(map.keys());
-keys.push("more");
+// let keys = Array.from(map.keys());
+// keys.push("more");
 
 
