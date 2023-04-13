@@ -48,3 +48,14 @@
 
 
 //////////////////////////////3////////////////////////////////////
+
+// const array = ["Hare", "Krishna", "Krishna", "Krishna", "Hare", "Hare", , , 2, 2, false, false];
+
+// function unique(arr) {
+//     return new Set(arr)
+// }
+
+// console.log(unique(array));
+
+
+//////////////////////////4/////////////////////////////////////
