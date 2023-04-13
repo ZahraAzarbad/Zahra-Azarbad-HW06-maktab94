@@ -61,3 +61,33 @@ console.log(result);
 // console.log(unique(array));
 
 
+//////////////////////////4/////////////////////////////////////
+
+
+
+const array = ["nap", "teachers", "cheaters", "PAN", "ear", "era", "hectares"];
+
+const anagrams = [];
+
+// anagrams.push(
+
+array.forEach(word => {
+    const sort = [...word].map(c => c.toLowerCase()).sort().join("")
+    anagrams[sort] = word
+});
+
+
+console.log(Object.values(anagrams))
+
+
+
+
+//////////////////////////////////////////5///////////////////////////////
+
+let map = new Map();
+map.set("name", "John");
+
+let keys = Array.from(map.keys());
+keys.push("more");
+
+
