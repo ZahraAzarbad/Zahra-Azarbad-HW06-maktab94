@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hw06-6</title>
+    <link rel="stylesheet" href="hw06-6.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+
+        <header>
+            <h1>Student Registeration Form</h1>
+            <br id="seperatLine">
+        </header>
+
+        <form name="myForm" action="#" onsubmit="return validateForm()" method="post">
+
+
+            <div class="box">
+                <label>Firstname</label>
+            </div>
+            <div>
+                <input class='input' type="text" name="Firstname" placeholder="Firstname">
+
+            </div>
+
+
+            <div class="box">
+                <label>Middlename :</label>
+            </div>
+            <div>
+                <input class='input' name="Middlename" type="text" placeholder="Middlename">
+            </div>
+
+
+
+            <div class="box">
+                <label>Lastname :</label>
+            </div>
+            <div>
+                <input class='input' type="text" name="Lastname" id="form_last-name" placeholder="Lastname">
+            </div>
+
+
+
+            <div class="box">
+
+                <label>Course :</label>
+                <select>
+                    <option selected>Course</option>
+
+                    <option name="Course" value="course"> ReactJS</option>
+                    <option name="Course" value="course">Android</option>
+                    <option name="Course" value="course">PHP</option>
+                </select>
+
+            </div>
+
+
+
+            <div class="box">
+
+                <label>Gender : </label>
+
+                <div>
+
+
+                    <input type="radio" name="gender" value="Male">
+                    <label>Male</label>
+
+
+                    <input type="radio" name="gender">
+                    <label>Female</label>
+
+
+                    <input type="radio" name="gender">
+                    <label>Other</label>
+
+                </div>
+
+            </div>
+
+
+            <div class="box">
+                <div>
+                    <label>Phone :</label>
+
+                </div>
+
+                <div>
+                    <input name="Code" class='input' type="text" value="+91" minlength="2" maxlength="3">
+                </div>
+
+            </div>
+
+
+
+
+            <div class="box">
+                <input class='input' type="number" placeholder="Phone no." name="PhonNumber" minlength="10"
+                    maxlength="10">
+            </div>
+
+
+            <div class="box">
+                <div>
+                    <label>Current Address :</label>
+                </div>
+                <div>
+                    <textarea name="Address" cols="60" rows="10" placeholder="current address"></textarea>
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="box">
+                <div>
+                    <label><strong>Email</strong></label>
+                </div>
+                <div>
+                    <input class='input' type="email" name="Email" placeholder="Email">
+                </div>
+            </div>
+
+
+
+            <div class="box">
+
+                <div>
+                    <label><strong>Password</strong></label>
+                </div>
+
+                <div>
+                    <input class='input' type="password" name='Password' placeholder="Password">
+                </div>
+            </div>
+
+
+
+            <div class="box">
+
+
+                <div>
+                    <label><strong>Re-typePassword</strong> </label>
+                </div>
+
+                <div>
+                    <input class='input' type="password" name="RetypePassword" placeholder="Retype Password">
+                </div>
+
+
+            </div>
+
+
+
+
+            <div class="box">
+                <input class='input' id="btn" class="submit" type="submit" value="Register"></input>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script src="hw06-6.js"></script>
+</body>
+
+</html>
