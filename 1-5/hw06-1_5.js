@@ -29,3 +29,23 @@ function topSalary(personSalary) {
 
 const result = topSalary(salaries);
 console.log(result);
+
+
+
+////////////////////2////////////////////////
+
+// function sortMachine() {
+//     const sortList = [];
+//     [...arguments].forEach((array) => {
+//         sortList.push(...array)
+//     })
+//     return sortList.sort((first, second) => {
+//         return second - first;
+//     });
+// }
+
+// console.log(...sortMachine([2, 3, 4], [1, 2, 15], [0, 58, 123]));
+
+
+
+//////////////////////////////3////////////////////////////////////
